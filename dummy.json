@@ -1,0 +1,123 @@
+[
+        {
+            "type": "twitter",
+            "team": "1",
+            "date": "1333065600000",
+            "content": {
+                "user": "@diePixelmacher",
+                "name": "Pixel Matcher",
+                "tweet": "Games werden 'mature': This year, Sony and Microsoft's E3 presentations contained a combined 218 on-screen deaths... http://kotaku.com/5916298/the-sony-and-microsoft-e3-murder-report"
+            }
+        },
+        {
+            "type": "twitter",
+            "team": "2",
+            "date": "1333065600000",
+            "content": {
+                "user": "@thesixthaxis",
+                "name": "The Sixth Axis",
+                "tweet": "New Post: The PS Vita Videos Sony Should Have Shown You This E3 - http://is.gd/M7nJkF"
+            }
+        },
+        {
+            "type": "facebook",
+            "team": "2",
+            "date": "1333065600000",
+            "content": {
+                "user": "Intel",
+                "link": "http://www.facebook.com/photo.php?fbid=10150879586905168&set=a.51733770167.75131.611155167&type=1",
+                "picture": "http://photos-h.ak.fbcdn.net/hphotos-ak-prn1/548130_10150879586905168_1953719334_s.jpg",
+                "post": "Computex 2012 just opened and we’re ready for visitors! Watch live today at 11pm PT (2pm local Taipei time) to see the opening keynote by Intel’s Tom Kilroy. http://socialmedia.intel.com/VLS<br/><img src='http://sphotos.xx.fbcdn.net/hphotos-ash3/s720x720/547099_10150870909211850_305007958_n.jpg'/>"
+            }
+        },
+        {
+            "type": "youtube",
+            "team": "2",
+            "date": "1333065600000",
+            "content": {
+                "user": "channelintel",
+                "title": "The Ultrabook Hunt San Francisco winner: Kishore",
+                "video": "http://youtu.be/Xj_8DumujVA"
+            }
+        },
+        {
+            "type": "twitter",
+            "team": "2",
+            "date": "1333065600000",
+            "content": {
+                "user": "@gamespot",
+                "name": "Game Spot",
+                "tweet": "Why didn't we see more of PS Vita in Sony's E3 show? Sony wanted to keep the show short. :( http://l.gamespot.com/Meefem"
+            }
+        },
+        {
+            "type": "twitter",
+            "team": "2",
+            "date": "1333065600000",
+            "content": {
+                "user": "@IGN",
+                "name": "IGN",
+                "tweet": "Sony talks PS4 - 'It's about being the best' http://go.ign.com/KhQcrU #E3"
+            }
+        },
+        {
+            "type": "twitter",
+            "team": "2",
+            "date": "1333065600000",
+            "content": {
+                "user": "@gamesutra",
+                "name": "Game Sutra",
+                "tweet": "Sony forecasts 10M PS Vita sales despite current woes - report http://bit.ly/NJr4MY"
+            }
+        },
+        {
+            "type": "twitter",
+            "team": "2",
+            "date": "1333065600000",
+            "content": {
+                "user": "@Sony",
+                "name": "Sony",
+                "tweet": "New from #TouchedbyTech: filmmaker Shawn Christensen uses technology to control his creative vision http://youtu.be/eOzdWITS7S4 @SonyElectronics"
+            }
+        },
+        {
+            "type": "youtube",
+            "team": "2",
+            "date": "1333065600000",
+            "content": {
+                "user": "channelintel",
+                "title": "Making Music on Screen with Intel's Intelligent Systems",
+                "video": "http://www.youtube.com/watch?v=tivjAaLaO-w&feature=plcp"
+            }
+        },
+        {
+            "type": "twitter",
+            "team": "2",
+            "date": "1333065600000",
+            "content": {
+                "user": "@gamespot",
+                "name": "Game Spot",
+                "tweet": "Naughty Dog's new action game The Last of Us will not ship until 2013, Sony confirms. Bummer? http://e3.gamespot.com/6380842"
+            }
+        },
+        {
+            "type": "facebook",
+            "team": "2",
+            "date": "1333065600000",
+            "content": {
+                "user": "Intel",
+                "picture": "http://photos-h.ak.fbcdn.net/hphotos-ak-prn1/548130_10150879586905168_1953719334_s.jpg",
+                "post": "Happy Birthday Museum of Me! Over 2M museums created! Have you created yours? http://socialmedia.intel.com/9EZ'/>"
+            }
+        },
+        {
+            "type": "facebook",
+            "team": "2",
+            "date": "1333065600000",
+            "content": {
+                "user": "Intel",
+                "picture": "http://photos-h.ak.fbcdn.net/hphotos-ak-prn1/548130_10150879586905168_1953719334_s.jpg",
+                "post": "Intel powered classmates PCs in Kenya - Technology in the classroom around the world! http://socialmedia.intel.com/Sdg'/>"
+            }
+        }
+]

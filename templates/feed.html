@@ -1,0 +1,6 @@
+<% _.each(feed, function(post){ %>
+    <% if (post.get("type") == "twitter") { %>
+        <!--<div class="element twitter norway"><%= post.get("team") %> - <%= post.get("type") %></div>-->
+        <li><%= post.get("team") %> - <%= post.get("type") %></li>
+    <% } %>
+<% }); %>

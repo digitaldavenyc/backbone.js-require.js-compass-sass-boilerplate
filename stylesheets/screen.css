@@ -1,0 +1,206 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 20, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 101, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 114, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, ../sass/screen.scss */
+body {
+  background: #1a1a1a;
+  font-family: arial;
+  font-size: 15px;
+  line-height: 28px;
+}
+
+/* line 14, ../sass/screen.scss */
+#content {
+  background-color: #efefef;
+  width: 970px;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: inline-block;
+  overflow: auto;
+  overflow-y: hidden;
+  -ms-overflow-y: hidden;
+  white-space: nowrap;
+}
+/* line 25, ../sass/screen.scss */
+#content .horizontal {
+  overflow: auto;
+  overflow-y: hidden;
+  -ms-overflow-y: hidden;
+  white-space: nowrap;
+}
+
+/* line 34, ../sass/screen.scss */
+.long {
+  width: 1500px;
+  height: 20px;
+  background-color: red;
+}
+
+/* line 40, ../sass/screen.scss */
+#test {
+  width: 970px;
+  border: 1px solid #666;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+/* line 47, ../sass/screen.scss */
+#scroll {
+  height: 350px;
+  background-color: #1a1a1a;
+  padding: 8px;
+  white-space: nowrap;
+}
+/* line 53, ../sass/screen.scss */
+#scroll .element {
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  color: #222;
+  background-color: #333333;
+  border-radius: 7px;
+  border: 7px solid;
+}
+/* line 66, ../sass/screen.scss */
+#scroll .twitter {
+  width: 180px;
+}
+/* line 69, ../sass/screen.scss */
+#scroll .facebook {
+  width: 90px;
+}
+/* line 72, ../sass/screen.scss */
+#scroll .youtube {
+  width: 180px;
+  height: 180px;
+}
+/* line 77, ../sass/screen.scss */
+#scroll .norway {
+  border-color: #0000ee;
+}
+/* line 80, ../sass/screen.scss */
+#scroll .canada {
+  border-color: #D61919;
+}
+/* line 83, ../sass/screen.scss */
+#scroll .germany {
+  border-color: #FFBB44;
+}
+/* line 86, ../sass/screen.scss */
+#scroll .finland {
+  border-color: #00FF88;
+}
+
+/* line 93, ../sass/screen.scss */
+.option-set li {
+  display: inline-block;
+  color: #595959;
+  cursor: pointer;
+}
+/* line 98, ../sass/screen.scss */
+.option-set li:hover {
+  color: red;
+}
+
+/* line 103, ../sass/screen.scss */
+.isotope-item {
+  z-index: 2;
+}
+
+/* line 107, ../sass/screen.scss */
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* line 113, ../sass/screen.scss */
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+/* line 120, ../sass/screen.scss */
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  transition-property: height, width;
+}
+
+/* line 126, ../sass/screen.scss */
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  transition-property: transform, opacity;
+}
