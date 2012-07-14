@@ -18,8 +18,6 @@ Instruction for getting started.
 
         gem install compass
 
-            -check if compass is running
-
         compass version
 
 2. Download Backbone.js
