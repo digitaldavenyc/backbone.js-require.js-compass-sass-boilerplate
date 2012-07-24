@@ -1,5 +1,5 @@
 /**
- * Intel Social Timeline
+ * Backbone.js Require.js SASS boilerplate
  *
  * @module config.js loads third-party libraries before starting require.js
  */

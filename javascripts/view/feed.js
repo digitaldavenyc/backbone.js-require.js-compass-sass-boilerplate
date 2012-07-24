@@ -1,5 +1,5 @@
 /**
- * Application Name
+ * Backbone.js Require.js SASS boilerplate
  *
  * @module view/feed/list.js
  */

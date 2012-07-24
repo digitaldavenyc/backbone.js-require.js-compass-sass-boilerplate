@@ -1,5 +1,5 @@
 /**
- * Intel Social Timeline
+ * Backbone.js Require.js SASS boilerplate
  *
  * @module app.js - load the app module and pass it to our definition function
  */

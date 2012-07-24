@@ -1,5 +1,5 @@
 /**
- * Intel Social Timeline
+ * Backbone.js Require.js SASS boilerplate
  *
  * @module collection/feed.js
  * @param {use!backbone} includes all backbone dependencies (underscore & jquery) when backbone is defined with require.js

@@ -1,5 +1,5 @@
 /**
- * Application Name
+ * Backbone.js Require.js SASS boilerplate
  *
  * @module collection/projects.js
  * @param {use!backbone} includes all backbone dependencies (underscore & jquery) when backbone is defined with require.js

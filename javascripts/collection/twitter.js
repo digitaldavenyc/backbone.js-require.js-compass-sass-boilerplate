@@ -1,5 +1,5 @@
 /**
- * Intel Social Timeline
+ * Backbone.js Require.js SASS boilerplate
  *
  * @module collection/dummy.js loads static dummy data into the application. is only used before social networks are integrated into code-base.
  */
