@@ -1,14 +1,16 @@
 /**
  * Backbone.js Require.js SASS boilerplate
  *
- * @module collection/dummy.js loads static dummy data into the application. is only used before social networks are integrated into code-base.
+ * @module collection/twitter.js
+ * collection calls twitter search, waits for response and adds the returned data to the collection
+ *
+ * @param {use!backbone} includes all backbone dependencies (underscore & jquery) when backbone is defined with require.js
  */
 define([
-    'use!backbone',
-    'model/twitter'
+    'use!backbone'
 ],
 
-function(Backbone, Model){
+function(Backbone){
 
     var Tweets = Backbone.Collection.extend({
         url: function(){
@@ -17,6 +19,7 @@ function(Backbone, Model){
         },
         parse: function(response, xhr){
 
+            //loop through response array and add each item to collection
             for(var i = 0; i < response.results.length; i++){
 
                 //create new model and push to collection
@@ -26,7 +29,6 @@ function(Backbone, Model){
             return response.results;
         },
         count: 10,
-        screenname: 'digitaldavenyc',
         page: 1,
         query: 'sony'
     });

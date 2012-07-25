@@ -2,8 +2,10 @@
  * Backbone.js Require.js SASS boilerplate
  *
  * @module collection/feed.js
+ * collection loads a static JSON file
+ *
  * @param {use!backbone} includes all backbone dependencies (underscore & jquery) when backbone is defined with require.js
- * @param {model/feed} feed model of data pull from backend service
+ * @param {model/feed} collection data model
  */
 define([
     'use!backbone',
@@ -13,8 +15,10 @@ define([
     function(Backbone, Model){
 
         var FeedCollection = Backbone.Collection.extend({
+
             model: Model,
             url: "/dummy.json"
+
         });
 
         return FeedCollection;

@@ -2,17 +2,25 @@
  * Backbone.js Require.js SASS boilerplate
  *
  * @module collection/users.js
+ * collection holds the user list
+ *
+ * @param {model/users} data model that holds each users for collection
  */
 
-define(['use!backbone', 'model/users'], function(Backbone, UsersModel){
-    var UsersCollection = Backbone.Collection.extend({
+define([
+    'use!backbone',
+    'model/users'
+],
+    function(Backbone, UsersModel){
 
-        model: UsersModel,
+        var UsersCollection = Backbone.Collection.extend({
 
-        initialize: function(){
+            model: UsersModel,
 
-        }
-    });
+            initialize: function(){
 
-    return new UsersCollection;
+            }
+        });
+
+        return new UsersCollection;
 });

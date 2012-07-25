@@ -5,7 +5,7 @@
  */
 define([
     'use!backbone',
-    'text!/templates/users/list.html',
+    'text!/templates/users.html',
     'collection/users'
 ], function(Backbone, UserListTemplate, UserListCollection){
     var UserListView = Backbone.View.extend({

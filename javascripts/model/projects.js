@@ -2,6 +2,8 @@
  * Backbone.js Require.js SASS boilerplate
  *
  * @module modules/projects.js
+ * projects data model, default score of 10
+ *
  */
 
 define(['use!backbone'], function(){
