@@ -4,13 +4,13 @@
  * @module view/feed/list.js
  */
 define([
-    'use!backbone',
-    'text!/templates/feed.html',
-    'collection/feed'
-],
+    'backbone',
+    'text!templates/feed.html',
+    'collection/feed'],
+
     function(Backbone, FeedTemplate, FeedCollection){
 
-        var FeedView = Backbone.View.extend({
+        return Backbone.View.extend({
 
             initialize: function(){
                 this.collection = new FeedCollection();
@@ -27,6 +27,5 @@ define([
             }
 
         });
-
-        return new FeedView;
-});
+    }
+);

@@ -5,12 +5,17 @@
  */
 
 define([
-    'use!backbone',
+    'backbone',
     'view/home',
     'view/projects',
     'view/users',
     'view/feed'
 ], function(Backbone, HomeView, ProjectView, UserView, FeedView){
+
+    var home = new HomeView();
+    var project = new ProjectView();
+    var users = new UserView();
+    var feed = new FeedView();
 
     var AppRouter = Backbone.Router.extend({
         routes: {
@@ -20,16 +25,16 @@ define([
             '*actions': 'defaultAction'
         },
         showProjects: function(){
-            ProjectView.render();
+            project.render();
         },
         showUsers: function(){
-            UserView.render();
+            users.render();
         },
         showFeed: function(){
-            FeedView.render();
+            feed.render();
         },
         defaultAction: function(actions){
-            HomeView.render();
+            home.render();
         }
     });
 

@@ -5,13 +5,13 @@
  * users data model
  *
  */
-define(['use!backbone'], function(){
-    var UsersModel = Backbone.Model.extend({
+define(['backbone'], function(){
+
+    return Backbone.Model.extend({
 
         initialize: function(){
 
         }
     });
 
-    return UsersModel;
 });

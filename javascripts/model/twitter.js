@@ -5,8 +5,9 @@
  * twitter data model
  *
  */
-define(['use!backbone'], function(Backbone){
-    var Twitter = Backbone.Model.extend({
+define(['backbone'], function(Backbone){
+
+    return Backbone.Model.extend({
         defaults: {
             text: "empty",
             date: "No Date"
@@ -16,5 +17,4 @@ define(['use!backbone'], function(Backbone){
         }
     });
 
-    return Twitter;
 });

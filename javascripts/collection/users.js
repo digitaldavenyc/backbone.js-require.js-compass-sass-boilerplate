@@ -4,23 +4,19 @@
  * @module collection/users.js
  * collection holds the user list
  *
- * @param {model/users} data model that holds each users for collection
+ * @param {Backbone} includes all backbone dependencies (underscore & jquery) when backbone is defined with require.js
+ * @param {Users} data model that holds each users for collection
  */
 
-define([
-    'use!backbone',
-    'model/users'
-],
+define(['backbone', 'model/users'],
     function(Backbone, UsersModel){
 
-        var UsersCollection = Backbone.Collection.extend({
+    return Backbone.Collection.extend({
 
-            model: UsersModel,
+        model: UsersModel,
 
-            initialize: function(){
+        initialize: function(){
 
-            }
-        });
-
-        return new UsersCollection;
+        }
+    });
 });

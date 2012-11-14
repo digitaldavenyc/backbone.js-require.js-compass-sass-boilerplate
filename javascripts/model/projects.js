@@ -6,15 +6,17 @@
  *
  */
 
-define(['use!backbone'], function(){
-    var ProjectsModel = Backbone.Model.extend({
+define(['backbone'], function(){
+
+    return Backbone.Model.extend({
+
         defaults: {
             score: 10
         },
+
         initialize: function(){
 
         }
     });
 
-    return ProjectsModel;
 });

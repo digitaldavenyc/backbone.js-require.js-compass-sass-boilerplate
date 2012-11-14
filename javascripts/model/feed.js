@@ -5,13 +5,13 @@
  * feed data model
  *
  */
-define(['use!backbone'], function(){
-    var FeedModel = Backbone.Model.extend({
+define(['backbone'], function(){
+
+    return Backbone.Model.extend({
 
         initialize: function(){
 
         }
     });
 
-    return FeedModel;
 });
