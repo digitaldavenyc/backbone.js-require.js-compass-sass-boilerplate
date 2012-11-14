@@ -9,4 +9,4 @@ Development in JavaScript, HTML & CSS has been severly limited in it's ability f
 
 Unfortunately there is not one single entity (such as Adobe, Apple or Microsoft) that can give us a collection of tools and a language API to write object oriented code in JavaScript & CSS. We have to piece it together ourselves with several libraries, and everyone has their own way of doing it, this is my way.
 
-This boilerplate is pretty dependency heavy but everything is open source and can be easily configured, I plan on adding a more detailed walk through on setting up the boilerplate soon.
+This boilerplate is pretty dependency heavy but everything is open source and can be easily configured.
